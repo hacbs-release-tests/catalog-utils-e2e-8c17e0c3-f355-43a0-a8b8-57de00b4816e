@@ -43,7 +43,7 @@ spec:
           - name: PR_GIT_REVISION
         steps:
           - name: get-container-image
-            image: quay.io/konflux-ci/release-service-utils@sha256:6d4dee971855fe55724c16b049e21a396287b53766ffd3fa984ee91895e9f099
+            image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:9320745750b8c10eeac9156903e2a6e635ad6e20ab50e38c67e187021815e2c9
             env:
               - name: SNAPSHOT
                 value: $(params.SNAPSHOT)
